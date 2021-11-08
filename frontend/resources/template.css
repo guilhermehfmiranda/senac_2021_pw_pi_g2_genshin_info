@@ -1,0 +1,86 @@
+/** Menu Template */
+/* * modern-normalize.css */
+@import url("../../resources/library/modern-normalize.css");
+/* * boostrap-5.0.2-dist.min.css */
+@import url("../../resources/library/bootstrap-5.0.2-dist/css/bootstrap.min.css");
+
+@font-face {
+    font-family: "Orange Typewriter";
+    src: url("../../assets/font/orange_typewriter/otf/Orange Typewriter.otf") format("opentype"),
+        url("../../assets/font/orange_typewriter/ttf/Orange Typewriter.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: "Orange Typewriter";
+    text-shadow: 0.25px 0.25px black;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#_menu {
+    background-image: url("../../assets/img/assets/genshinback.jpg");
+    background-attachment: fixed;
+}
+
+#_logo-img {
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+#_logo-span {
+    color: black !important;
+}
+
+#_left-top-content, 
+#_middle-content, 
+#_right-bottom-content, 
+#_news-img {
+    height: 100%;
+    width: 100%;
+}
+#_news-img,
+#_chars-img {
+    border: 1px solid black;
+    object-fit: cover;
+}
+#_chars-img {
+    height: 150px;
+    width: 300px;
+}
+
+#_span {
+    background-color: rgba(238, 238, 255, 0.493) !important;
+}
+
+#_span, input, button {
+    color: black !important;
+}
+
+body {
+    background-image: url("../../assets/img/assets/genshinback.jpg");
+    background-attachment: fixed;
+}
+/** Input/Output Box Template */
+#_div {
+    /* min-width: 200px; */
+    /* max-width: 300px; */
+    /* min-height: auto; */
+    /* max-height: auto; */
+    height: 650px;
+    /* width: 250px; */
+    outline: 1px solid black;
+}
+#_div_top {
+    height: 20%;
+}
+#_div_middle {
+    /* min-height: 10%; */
+    height: 50%;
+}
+#_div_bottom {
+    height: 30%;
+}

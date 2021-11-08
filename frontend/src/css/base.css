@@ -1,0 +1,95 @@
+/* * modern-normalize.css */
+@import url("../../resources/library/modern-normalize.css");
+/* * boostrap-5.0.2-dist.min.css */
+@import url("../../resources/library/bootstrap-5.0.2-dist/css/bootstrap.min.css");
+
+@font-face {
+    font-family: "Orange Typewriter";
+    src: url("../../assets/font/orange_typewriter/otf/Orange Typewriter.otf") format("opentype"),
+        url("../../assets/font/orange_typewriter/ttf/Orange Typewriter.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: "Orange Typewriter";
+    text-shadow: 0.25px 0.25px black;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#_menu {
+    background-image: url("../../assets/img/genshinback.jpg");
+    background-attachment: fixed;
+}
+
+#_logo_img {
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+#_logo_span {
+    color: black !important;
+}
+
+main {
+    margin-top: 15vh !important;
+}
+
+#_left_top_content, 
+#_middle_content, 
+#_right_bottom_content, 
+#_news_img,
+#_weapons_rarity_img,
+#_chars_element_img {
+    height: 100%;
+    width: 100%;
+}
+
+#_news_img,
+#_weapons_rarity_img,
+#_weapons_img,
+#_chars_element_img,
+#_chars_img {
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+#_weapons_img {
+    height: 150px;
+    width: 150px;
+}
+
+#_chars_img {
+    height: 150px;
+    width: 300px;
+}
+
+#_span {
+    background-color: rgba(238, 238, 255, 0.300) !important;
+}
+
+#_span, input, button {
+    color: black !important;
+}
+
+body {
+    background-image: url("../../assets/img/genshinback.jpg");
+    background-attachment: fixed;
+}
+
+th > #_span, td > #_span {
+    background-color: rgba(238, 238, 255, 0) !important;
+    font-weight: 500;
+}
+
+tr {
+    background-color: rgba(238, 238, 255, 0.300);
+}
+
+tr:hover {
+    /* background-color: rgba(169, 248, 186, 0.25); */
+    background-color: rgba(238, 238, 255, 0.600);
+}
