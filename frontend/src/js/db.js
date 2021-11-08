@@ -155,6 +155,13 @@ function build_db_tables(id, table_data) {
                             <span><input form="_form_character_` + character.character_id +  `" type="submit" name="submit" value="Save"></span>
                         </div>
                     </td>
+                    <td>
+                        <div id="_span"
+                            class="text-wrap
+                                text-center">
+                            <span><input form="_form_character_` + character.character_id +  `" type="submit" name="submit" value="Del"></span>
+                        </div>
+                    </td>
                 </tr>
                 `;
             }
@@ -240,6 +247,13 @@ function build_db_tables(id, table_data) {
                             <span><input form="_form_element_` + element.element_id +  `" type="submit" name="submit" value="Save"></span>
                         </div>
                     </td>
+                    <td>
+                        <div id="_span"
+                            class="text-wrap
+                                text-center">
+                            <span><input form="_form_element_` + element.element_id +  `" type="submit" name="submit" value="Del"></span>
+                        </div>
+                    </td>
                 </tr>
                 `;
             }
@@ -323,6 +337,13 @@ function build_db_tables(id, table_data) {
                             class="text-wrap
                                 text-center">
                             <span><input form="_form_ascension_` + ascension.ascension_id +  `" type="submit" name="submit" value="Save"></span>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="_span"
+                            class="text-wrap
+                                text-center">
+                            <span><input form="_form_ascension_` + ascension.ascension_id +  `" type="submit" name="submit" value="Del"></span>
                         </div>
                     </td>
                 </tr>
@@ -480,6 +501,13 @@ function build_db_tables(id, table_data) {
                             <span><input form="_form_weapon_` + weapon.weapon_id +  `" type="submit" name="submit" value="Save"></span>
                         </div>
                     </td>
+                    <td>
+                        <div id="_span"
+                            class="text-wrap
+                                text-center">
+                            <span><input form="_form_weapon_` + weapon.weapon_id +  `" type="submit" name="submit" value="Del"></span>
+                        </div>
+                    </td>
                 </tr>
                 `;
             }
@@ -549,6 +577,13 @@ function build_db_tables(id, table_data) {
                             class="text-wrap
                                 text-center">
                             <span><input form="_form_type_` + type.type_id +  `" type="submit" name="submit" value="Save"></span>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="_span"
+                            class="text-wrap
+                                text-center">
+                            <span><input form="_form_type_` + type.type_id +  `" type="submit" name="submit" value="Del"></span>
                         </div>
                     </td>
                 </tr>
@@ -622,6 +657,13 @@ function build_db_tables(id, table_data) {
                             <span><input form="_form_rarity_` + rarity.rarity_id +  `" type="submit" name="submit" value="Save"></span>
                         </div>
                     </td>
+                    <td>
+                        <div id="_span"
+                            class="text-wrap
+                                text-center">
+                            <span><input form="_form_rarity_` + rarity.rarity_id +  `" type="submit" name="submit" value="del"></span>
+                        </div>
+                    </td>
                 </tr>
                 `;
             }
@@ -691,6 +733,13 @@ function build_db_tables(id, table_data) {
                             class="text-wrap
                                 text-center">
                             <span><input form="_form_atk_` + atk.atk_id +  `" type="submit" name="submit" value="Save"></span>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="_span"
+                            class="text-wrap
+                                text-center">
+                            <span><input form="_form_atk_` + atk.atk_id +  `" type="submit" name="submit" value="Del"></span>
                         </div>
                     </td>
                 </tr>
@@ -764,6 +813,13 @@ function build_db_tables(id, table_data) {
                             <span><input form="_form_bonus_` + bonus.bonus_id +  `" type="submit" name="submit" value="Save"></span>
                         </div>
                     </td>
+                    <td>
+                        <div id="_span"
+                            class="text-wrap
+                                text-center">
+                            <span><input form="_form_bonus_` + bonus.bonus_id +  `" type="submit" name="submit" value="Del"></span>
+                        </div>
+                    </td>
                 </tr>
                 `;
             }
@@ -833,6 +889,13 @@ function build_db_tables(id, table_data) {
                             class="text-wrap
                                 text-center">
                             <span><input form="_form_location_` + location.location_id +  `" type="submit" name="submit" value="Save"></span>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="_span"
+                            class="text-wrap
+                                text-center">
+                            <span><input form="_form_location_` + location.location_id +  `" type="submit" name="submit" value="Del"></span>
                         </div>
                     </td>
                 </tr>

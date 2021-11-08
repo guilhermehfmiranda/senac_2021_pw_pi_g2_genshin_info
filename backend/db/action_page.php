@@ -57,7 +57,10 @@
                                 `character_id` = '".$arr['character_id']."';";
                         break;
                     case 'Del' :
-                        $sql = "";
+                        $sql = 
+                            "DELETE FROM `characters_table`
+                            WHERE
+                                `character_id` = '".$arr['character_id']."';";
                         break;
                 }
                 break;
@@ -80,7 +83,10 @@
                                 `element_id` = '".$arr['element_id']."';";
                         break;
                     case 'Del' :
-                        $sql = "";
+                        $sql = 
+                            "DELETE FROM `elements_table`
+                            WHERE
+                                `element_id` = '".$arr['element_id']."';";
                         break;
                 }
                 break;    
@@ -103,8 +109,11 @@
                                 `ascension_id` = '".$arr['ascension_id']."';";
                         break;
                     case 'Del' :
-                        $sql = "";
-                        break;
+                        $sql = 
+                            "DELETE FROM `ascensions_table`
+                            WHERE
+                                `ascension_id` = '".$arr['ascension_id']."';";
+                        break;;
                 }
                 break;
             case 'weapons_table' :
@@ -131,7 +140,10 @@
                                 `weapon_id` = '".$arr['weapon_id']."';";
                         break;
                     case 'Del' :
-                        $sql = "";
+                        $sql = 
+                            "DELETE FROM `weapons_table`
+                            WHERE
+                                `weapon_id` = '".$arr['weapon_id']."';";
                         break;
                 }
                 break;
@@ -153,7 +165,10 @@
                                 `type_id` = '".$arr['type_id']."';";
                         break;
                     case 'Del' :
-                        $sql = "";
+                        $sql = 
+                            "DELETE FROM `types_table`
+                            WHERE
+                                `type_id` = '".$arr['type_id']."';";
                         break;
                 }
                 break;
@@ -175,7 +190,10 @@
                                 `rarity_id` = '".$arr['rarity_id']."';";
                         break;
                     case 'Del' :
-                        $sql = "";
+                        $sql = 
+                            "DELETE FROM `rarities_table`
+                            WHERE
+                                `rarity_id` = '".$arr['rarity_id']."';";
                         break;
                 }
                 break;
@@ -197,7 +215,10 @@
                                 `atk_id` = '".$arr['atk_id']."';";
                         break;
                     case 'Del' :
-                        $sql = "";
+                        $sql = 
+                            "DELETE FROM `atks_table`
+                            WHERE
+                                `atk_id` = '".$arr['atk_id']."';";
                         break;
                 }
                 break;
@@ -219,7 +240,10 @@
                                 `bonus_id` = '".$arr['bonus_id']."';";
                         break;
                     case 'Del' :
-                        $sql = "";
+                        $sql = 
+                            "DELETE FROM `bonuses_table`
+                            WHERE
+                                `bonus_id` = '".$arr['bonus_id']."';";
                         break;
                 }
                 break;
@@ -241,7 +265,10 @@
                                 `location_id` = '".$arr['location_id']."';";
                         break;
                     case 'Del' :
-                        $sql = "";
+                        $sql = 
+                            "DELETE FROM `locations_table`
+                            WHERE
+                                `location_id` = '".$arr['location_id']."';";
                         break;
                 }
                 break;
