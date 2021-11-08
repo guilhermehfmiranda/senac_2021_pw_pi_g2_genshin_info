@@ -211,7 +211,7 @@ INSERT INTO `bonuses_table`
 VALUES
     (1, 'Increases Elemental DMG Bonus by 12/15/18/21/24%.<br>Normal Attack hits have a 50% chance to earn the favor of the clouds.<br>which actively seek out nearby enemies to attack for 15s, dealing 160/200/240/280/320% ATK DMG.<br>Can only occur once every 30s.'),
     (2, 'Increases Normal Attack and Aimed Shot DMG by 12/15/18/21/24%.<br>Increases DMG from arrows shot by a further 8/10/12/14/16% for every 0.1s that the arrow is in flight, up to 0.5s.<br>Stacks up to 5 times on each arrow.'),
-    (3, 'HP increased by 20/25/30/35/40%.<br>Additionally, provides an ATK Bonus based on 0.8/1/1.2/1.4/1.6% of the wielder''s Max HP.<br>When the wielder''s HP is less than 50%, this ATK bonus is increased by an additional 1/1.2/1.4/1.6/1.8% of Max HP.'),
+    (3, 'HP increased by 20/25/30/35/40%.<br>Additionally, provides an ATK Bonus based on 0.8/1/1.2/1.4/1.6% of the wielders Max HP.<br>When the wielders HP is less than 50%, this ATK bonus is increased by an additional 1/1.2/1.4/1.6/1.8% of Max HP.'),
     (4, 'For every characters who hails from Liyue, the characters who equips this weapon gains 7/8/9/10/11% ATK increase and a 3/4/5/6/7% CRIT Rate increase.<br>This effect stacks up to 4 times.'),
     (5, 'After defeating an enemy, ATK is increased by 12/15/18/21/24% for 30s.<br>This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.'),
     (6, 'CRIT hits have a 60/70/80/90/100% chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character.<br>Can only occur once every 12/10.5/9/7.5/6s.'),
@@ -219,7 +219,7 @@ VALUES
     (8, 'After damaging an opponent with an Elemental Skill, the skill has a 40/50/60/70/80% chance to end its own CD.<br>Can only occur once every 30/26/22/18/14s.'),
     (9, 'On hit, Normal or Charged Attacks have a 50% chance to deal an additional 240/300/360/420/480% ATK DMG to enemies within a small radius.<br>Can only occur once every 15s.'),
     (10, 'Aimed Shot hits on weak points increase Movement SPD by 10% and ATK by 36/45/54/63/72% for 10s.'),
-    (11, 'A part of the ''Millennial Movement'' that wanders amidst the winds.<br>Increases DMG by 10/12.5/15/17.5/20%.<br>When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion.<br>This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field.<br>When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain ''Millennial Movement: Song of Resistance'' for 12s. '),
+    (11, 'A part of the Millennial Movement that wanders amidst the winds.<br>Increases DMG by 10/12.5/15/17.5/20%.<br>When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion.<br>This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field.<br>When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain Millennial Movement: Song of Resistance for 12s. '),
     (12, 'ATK is increased by 20/25/30/35/40%.<br>Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 100/115/130/145/160% of ATK and dealing 200/230/260/290/320% of ATK as DMG to surrounding enemies.<br>This effect can only occur once every 15s.'),
     (13, 'On hit, Normal or Charged Attacks increase Base ATK and DEF by 4/4.5/5/5.5/6% for 6s. Max 4 stacks.<br>Can only occur once every 0.3s.'),
     (14, 'Increases DMG against enemies affected by Pyro or Electro by 20/24/28/32/36%.'),
@@ -234,8 +234,8 @@ VALUES
     (23, 'Hitting an opponent with Normal and Charged Attacks has a 60/70/80/90/100% chance of forming and dropping an Everfrost Icicle above them, dealing 80/95/110/125/140% AoE ATK DMG.<br>Opponents affected by Cryo are dealt 200/240/280/320/360% ATK DMG.<br>Can only occur once every 10s.'),
     (24, 'Normal Attack hits on opponents increase Charged Attack DMG by 16/20/24/28/32% for 6s.<br>Charged Attack hits on opponents increase ATK by 8/10/12/14/16% for 6s.'),
     (25, 'Increases CRIT DMG by 20/25/30/35/40%.<br>Hits have a 60/70/80/90/100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG.<br>Can only occur once every 4/3.5/3/2.5/2s.'),
-    (26, 'Dealing Cryo DMG to opponents increases this character''s Normal and Charged Attack DMG by 10% for 6s.<br>This effect can have a maximum of 2 stacks.<br>Additionally, when Aloy equips Predator, ATK is increased by 66.'),
-    (27, 'Increases ATK by 20/25/30/35/40%.<br>On hit, attacks against enemies with less than 30% HP increase all party members'' Base ATK by 40/50/60/70/80% for 12s.<br>Can only occur once every 30s.'),
+    (26, 'Dealing Cryo DMG to opponents increases this characters Normal and Charged Attack DMG by 10% for 6s.<br>This effect can have a maximum of 2 stacks.<br>Additionally, when Aloy equips Predator, ATK is increased by 66.'),
+    (27, 'Increases ATK by 20/25/30/35/40%.<br>On hit, attacks against enemies with less than 30% HP increase all party members Base ATK by 40/50/60/70/80% for 12s.<br>Can only occur once every 30s.'),
     (28, 'Increases Shield Strength by 20/25/30/35/40%, scoring hits on opponents increases ATK by 4/5/6/7/8% for 8s.<br>Max 5 stacks.<br>Can only occur once every 0.3s.<br>While protected by a shield this ATK increase effect is increased by 100%');
 --
 INSERT INTO `atks_table` 
@@ -274,19 +274,19 @@ VALUES
 INSERT INTO `weapons_table` 
     (`weapon_id`, `weapon_name`, `weapon_image`, `type_id`, `rarity_id`, `atk_id`, `bonus_id`, `location_id`)
 VALUES
-    (1, 'Amos'' Bow', 'amosbow.png', 1, 5, 8, 2, 1),
+    (1, 'Amos Bow', 'amosbow.png', 1, 5, 8, 2, 1),
     (2, 'Skyward Atlas', 'atlascatalyst.png', 1, 5, 10, 1, 1),
     (3, 'Staff of Homa', 'lancehoma.png', 3, 5, 8, 3, 1),
     (4, 'Lithic Spear', 'lanceLithic.png', 3, 4, 4, 4, 1),
     (5, 'Crescent Pike', 'lanceCresentpike.png', 3, 4, 6, 17, 3),
     (6, 'Blackcliff Pole', 'lanceBlackcliff.png', 3, 4, 4, 5, 4),
     (7, 'Favonius Lance', 'lanceFavonius.png', 3, 4, 7, 6, 1),
-    (8, 'Dragon''s Bane', 'lanceDragonsbane.png', 3, 4, 3, 14, 1),
+    (8, 'Dragons Bane', 'lanceDragonsbane.png', 3, 4, 3, 14, 1),
     (9, 'Kitain Cross Spear', 'lanceKitain.png', 3, 4, 6, 18, 3),
     (10, 'Royal Spear', 'lanceRoyal.png', 3, 4, 6, 7, 4),
     (11, 'Primordial Jade Winged-Spear', 'jadelance.png', 3, 5, 10, 20, 1),
     (12, 'Vortex Vanquisher', 'lancevortex.png', 3, 5, 8, 19, 1),
-    (13, 'Lion''s Roar', 'swordLion.png', 1, 4, 4, 14, 1),
+    (13, 'Lions Roar', 'swordLion.png', 1, 4, 4, 14, 1),
     (14, 'Freedom-Sworn', 'swordbrokenpines.png', 1, 5, 8, 11, 1),
     (15, 'Amenoma Kageuchi', 'swordAmenoma.png', 1, 4, 3, 15, 3),
     (16, 'Prototype Rancour', 'swordPrototype.png', 1, 4, 6, 20, 3),
@@ -305,7 +305,7 @@ VALUES
     (30, 'Skyward Harp', 'bowskyward.png', 4, 5, 10, 8, 1),
     (31, 'Blackcliff Warbow', 'bowBlackcliff.png', 4, 4, 6, 5, 4),
     (32, 'Favonius Greatsword', 'bigswordFavonius.png', 5, 4, 3, 6, 1),
-    (33, 'Wolf''s Gravestone', 'bigswordwolf.png', 5, 5, 8, 27, 1),
+    (33, 'Wolfs Gravestone', 'bigswordwolf.png', 5, 5, 8, 27, 1),
     (34, 'The Unforged', 'bigswordunforged.png', 5, 5, 8, 28, 1),
     (35, 'Sacrificial Greatsword', 'bigswordSacrif.png', 5, 4, 6, 8, 1),
     (36, 'Luxurious Sea-Lord', 'swordFish.png', 2, 4, 3, 1, 5),

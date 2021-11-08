@@ -252,8 +252,8 @@
             header("Location:../../frontend/src/admin.php");
             
         } else {
-            $connection -> close();
-            echo "Error: " . $sql . "<br>" . $conn->error;
+            // $connection -> close();
+            echo "Error: " . $sql . "<br>" . $connection->error;
         }
 
     }
