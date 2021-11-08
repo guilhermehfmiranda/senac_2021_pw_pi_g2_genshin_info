@@ -46,15 +46,15 @@
                         $sql = 
                             "UPDATE `characters_table`
                             SET 
-                                `character_name` = $arr['character_name'],
-                                `character_image` = $arr['character_image'],
-                                `element_id` = $arr['element_id'],
-                                `character_atk` = $arr['character_atk'],
-                                `character_def` = $arr['character_def'],
-                                `character_hp` = $arr['character_hp'],
-                                `ascension_id` = $arr['ascension_id']
+                                `character_name` = '".$arr['character_name']."',
+                                `character_image` = '".$arr['character_image']."',
+                                `element_id` = '".$arr['element_id']."',
+                                `character_atk` = '".$arr['character_atk']."',
+                                `character_def` = '".$arr['character_def']."',
+                                `character_hp` = '".$arr['character_hp']."',
+                                `ascension_id` = '".$arr['ascension_id']."'
                             WHERE
-                                `character_id` = $arr['character_id'];";
+                                `character_id` = '".$arr['character_id']."';";
                         break;
                     case 'Del' :
                         $sql = "";
@@ -74,10 +74,10 @@
                         $sql = 
                             "UPDATE `elements_table`
                             SET 
-                                `element_name` = $arr['element_name'],
-                                `element_image` = $arr['element_image']
+                                `element_name` = '".$arr['element_name']."',
+                                `element_image` = '".$arr['element_image']."'
                             WHERE
-                                `element_id` = $arr['element_id'];";
+                                `element_id` = '".$arr['element_id']."';";
                         break;
                     case 'Del' :
                         $sql = "";
@@ -97,10 +97,10 @@
                         $sql = 
                             "UPDATE `ascensions_table`
                             SET 
-                                `ascension_bonus` = $arr['ascension_bonus'],
-                                `ascension_value` = $arr['ascension_value']
+                                `ascension_bonus` = '".$arr['ascension_bonus']."',
+                                `ascension_value` = '".$arr['ascension_value']."'
                             WHERE
-                                `ascension_id` = $arr['ascension_id'];";
+                                `ascension_id` = '".$arr['ascension_id']."';";
                         break;
                     case 'Del' :
                         $sql = "";
@@ -120,15 +120,15 @@
                         $sql = 
                             "UPDATE `weapons_table`
                             SET 
-                                `weapon_name` = $arr['weapon_name'],
-                                `weapon_image` = $arr['weapon_image'],
-                                `type_id` = $arr['type_id'],
-                                `rarity_id` = $arr['rarity_id'],
-                                `atk_id` = $arr['atk_id'],
-                                `bonus_id` = $arr['bonus_id'],
-                                `location_id` = $arr['location_id']
+                                `weapon_name` = '".$arr['weapon_name']."',
+                                `weapon_image` = '".$arr['weapon_image']."',
+                                `type_id` = '".$arr['type_id']."',
+                                `rarity_id` = '".$arr['rarity_id']."',
+                                `atk_id` = '".$arr['atk_id']."',
+                                `bonus_id` = '".$arr['bonus_id']."',
+                                `location_id` = '".$arr['location_id']."'
                             WHERE
-                                `weapon_id` = $arr['weapon_id'];";
+                                `weapon_id` = '".$arr['weapon_id']."';";
                         break;
                     case 'Del' :
                         $sql = "";
@@ -148,9 +148,9 @@
                         $sql = 
                             "UPDATE `types_table`
                             SET 
-                                `type_name` = $arr['type_name']
+                                `type_name` = '".$arr['type_name']."'
                             WHERE
-                                `type_id` = $arr['type_id'];";
+                                `type_id` = '".$arr['type_id']."';";
                         break;
                     case 'Del' :
                         $sql = "";
@@ -170,9 +170,9 @@
                         $sql = 
                             "UPDATE `rarities_table`
                             SET 
-                                `rarity_value` = $arr['rarity_value']
+                                `rarity_value` = '".$arr['rarity_value']."'
                             WHERE
-                                `rarity_id` = $arr['rarity_id'];";
+                                `rarity_id` = '".$arr['rarity_id']."';";
                         break;
                     case 'Del' :
                         $sql = "";
@@ -192,9 +192,9 @@
                         $sql = 
                             "UPDATE `atks_table`
                             SET 
-                                `atk_value` = $arr['atk_value']
+                                `atk_value` = '".$arr['atk_value']."'
                             WHERE
-                                `atk_id` = $arr['atk_id'];";
+                                `atk_id` = '".$arr['atk_id']."';";
                         break;
                     case 'Del' :
                         $sql = "";
@@ -214,9 +214,9 @@
                         $sql = 
                             "UPDATE `bonuses_table`
                             SET 
-                                `bonus_description` = $arr['bonus_description']
+                                `bonus_description` = '".$arr['bonus_description']."'
                             WHERE
-                                `bonus_id` = $arr['bonus_id'];";
+                                `bonus_id` = '".$arr['bonus_id']."';";
                         break;
                     case 'Del' :
                         $sql = "";
@@ -236,9 +236,9 @@
                         $sql = 
                             "UPDATE `locations_table`
                             SET 
-                                `location_name` = $arr['location_name']
+                                `location_name` = '".$arr['location_name']."'
                             WHERE
-                                `location_id` = $arr['location_id'];";
+                                `location_id` = '".$arr['location_id']."';";
                         break;
                     case 'Del' :
                         $sql = "";
